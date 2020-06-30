@@ -69,3 +69,30 @@ var test = {
         console.log("MANGER");
     }
 };
+
+/**
+ *ATTENTION :
+ * var x = 1 different de x = 1 dans une fonction
+ *
+ */
+
+// var y = function () {
+//     var x = ('Hello word');
+//     console.log(x);
+// };
+//undifined car la variable est contenue
+
+
+// var x = ('Hello word');
+// var y = function () {
+//
+//     console.log(x);
+// };
+// //Affiche le contenu de la var
+
+var x = ('Hello word');
+var y = function () {
+   x = 1;//contenu de la var modifié
+    console.log(x);
+};
+//Attention, ici la var change
