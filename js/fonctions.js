@@ -74,6 +74,8 @@ var test = {
  *ATTENTION :
  * var x = 1 different de x = 1 dans une fonction
  *
+ * lorsqu'une var est déclarée dans une fonction sans le "var" en préfix, la variable est déclarée globalement et non juste dans la fonction
+ *
  */
 
 // var y = function () {
